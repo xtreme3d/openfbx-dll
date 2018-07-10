@@ -1,2 +1,2 @@
 # openfbx-dll
-C wrapper of OpenFBX library
+C wrapper for [OpenFBX](https://github.com/nem0/OpenFBX) meant to be compiled as DLL.
