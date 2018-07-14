@@ -55,6 +55,12 @@ OfExport double fbxObjectGetLocalScaling(void* ob, int index)
     else return p.z;
 }
 
+OfExport ofbx::Matrix fbxObjectGetGlobalTransform(void* ob)
+{
+    ofbx::Object* obj = (ofbx::Object*)ob;
+    return obj->getGlobalTransform();
+}
+
 // Mesh
 OfExport int fbxMeshGetVertexCount(void* me)
 {
